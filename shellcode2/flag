@@ -1,0 +1,5 @@
+flag{aaaaaaaaaaaaaaaaaaaa}
+
+
+docker tag pwn_sudoku_1 www.neu-nex.fun/3rd_nex/pwn_sudoku_1
+docker push www.neu-nex.fun/3rd_nex/pwn_sudoku_1

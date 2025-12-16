@@ -1,0 +1,12 @@
+version: '3'
+services:
+  test:
+    # build: ./
+    image: www.neu-nex.fun/3rd_nex/pwn_fmt_1
+    environment:
+      # 仅为测试用flag
+      FLAG: "#FLAG#"
+    ports:
+      # 设置了暴露端口
+      - "#PORT#:9999"
+    restart: unless-stopped
